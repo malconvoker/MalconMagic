@@ -14,9 +14,6 @@ public class BMPlugin implements IBloodMagicPlugin
     @Override
     public void register(IBloodMagicAPI apiInterface)
     {
-        BloodMagicAPI api = (BloodMagicAPI) apiInterface;
-		{
-			api.registerAltarComponent(BOPBlocks.crystal.getDefaultState(), ComponentType.GLOWSTONE.name());
-		}
+        apiInterface.registerAltarComponent(BOPBlocks.crystal.getDefaultState(), ComponentType.GLOWSTONE.name());
 	}
 }
