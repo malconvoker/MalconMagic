@@ -1,0 +1,16 @@
+[
+{
+  "modid": "malconmagic",
+  "name": "MalconMagic",
+  "description": "Blood Magic addon for more altar pillar options",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Malconvoker"],
+  "credits": "WayofTime and TehNut for Blood Magic",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
