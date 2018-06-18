@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = MalconMagic.MODID, name = MalconMagic.NAME, version = MalconMagic.VERSION, dependencies = MalconMagic.DEPENDENCIES)
+@Mod(modid = MalconMagic.MODID, name = MalconMagic.NAME, version = MalconMagic.VERSION, dependencies = MalconMagic.DEPENDENCIES, acceptableRemoteVersions = "*")
 public class MalconMagic
 {
     public static final String MODID = "malconmagic";
